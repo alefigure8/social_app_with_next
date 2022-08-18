@@ -1,10 +1,15 @@
 import React from 'react'
 
 export default function Search() {
+  const handleSubmit = e => {
+    e.preventDefault()
+    console.log('Buscando...')
+  }
   return (
-    <form>
+    <form
+      onSubmit={handleSubmit}
+    >
       <input type="text" />
-      <button type="submit">Search</button>
     </form>
   )
 }
