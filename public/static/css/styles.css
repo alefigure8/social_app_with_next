@@ -1,0 +1,41 @@
+:root {
+  --backgound: #DBE0E7;
+  --post-title: #222222;
+  --post-background: #ffffff;
+  --post-text: #878a8c ;
+  --nav-title: #1c1c1c;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: var(--backgound);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0 0 2rem 0;
+  line-height: 1.6;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  color: var(--post-title);
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
