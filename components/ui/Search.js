@@ -1,4 +1,5 @@
 import React from 'react'
+import headerStyles from '../../public/static/css/HeaderStyle.module.css'
 
 export default function Search() {
   const handleSubmit = e => {
@@ -9,7 +10,7 @@ export default function Search() {
     <form
       onSubmit={handleSubmit}
     >
-      <input type="text" />
+      <input type="text" className={headerStyles.Search} />
     </form>
   )
 }

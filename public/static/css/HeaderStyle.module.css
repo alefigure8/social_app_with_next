@@ -1,0 +1,100 @@
+.Header {
+  background-color: var(--nav-background);
+}
+
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+}
+
+.MainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.Logo { 
+  width: 117px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--nav-title);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 2rem;
+}
+
+.Reddit{
+  color: var(--orange-reddit);
+  font-size: 3.2rem;
+}
+
+.Login{
+  margin: 0 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 400px;
+}
+
+.Search {
+  width: 656px;
+  height: 36px;
+  background-color: var(--gray-light);
+  border: 1px solid var(--btn-primary-hover);
+  border-radius: 5px;
+}
+
+.Search:hover{
+  background-color: #fff;
+  border-color: var(--secundary-color);
+}
+
+.NavLinksContainer{
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.NavLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.NavLinksBtn{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.NavButtonLogin{
+  width: 120px;
+  text-align: center;
+  color: var(--secundary-color);
+  background-color: var(--nav-background);
+  border: 1px solid var(--secundary-color);
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.NavButtonLogin:hover{
+  background-color: var(--btn-primary-hover);
+}
+
+.NavButtonSingUp{
+  width: 120px;
+  text-align: center;
+  color: var(--nav-background);
+  background-color: var(--secundary-color);
+  border: 1px solid var(--secundary-color);
+  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}

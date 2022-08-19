@@ -1,8 +1,9 @@
-.container{
+.Container{
   max-width: 1068px;
   margin: 0 auto;
   padding: 20px 24px;
 }
+
 .posts{
   background-color: var(--post-background);
   color: var(--post-text);
